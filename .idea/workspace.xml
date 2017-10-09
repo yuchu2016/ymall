@@ -6,9 +6,25 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e7b09c-2efe-44da-95f7-32d9cea75cef" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/../ymall/out/" />
-    <ignored path="$PROJECT_DIR$/../ymall/target/" />
+    <list default="true" id="d7e7b09c-2efe-44da-95f7-32d9cea75cef" name="Default" comment="用户接口模块">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yuchu/common/Const.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yuchu/common/ResponseCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yuchu/common/ServerResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yuchu/common/TokenCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yuchu/controller/backend/UserManageController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yuchu/controller/portal/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yuchu/service/IUserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yuchu/service/Impl/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yuchu/util/MD5Util.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yuchu/util/PropertiesUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yuchu/dao/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/yuchu/dao/UserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/datasource.properties" afterPath="$PROJECT_DIR$/src/main/resources/datasource.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,119 +37,163 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CartMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/CartMapper.xml">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/controller/portal/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+            <state relative-caret-position="280">
+              <caret line="124" column="76" lean-forward="true" selection-start-line="124" selection-start-column="76" selection-end-line="124" selection-end-column="76" />
               <folding>
-                <marker date="1506344577864" expanded="true" signature="1104:1210" ph="select from mmall_cart" />
-                <marker date="1506344577864" expanded="true" signature="1297:1357" ph="delete from " />
-                <marker date="1506344577864" expanded="true" signature="1434:1723" ph="insert into mmall_cart... " />
-                <marker date="1506344577864" expanded="true" signature="3070:3716" ph="update mmall... " />
-                <marker date="1506344577864" expanded="true" signature="3805:4128" ph="update mmall... " />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1749#1750#0" expanded="true" />
+                <element signature="e#1799#1800#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/UserMapper.xml">
+      <file leaf-file-name="UserManageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/controller/backend/UserManageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3750">
-              <caret line="150" column="24" lean-forward="false" selection-start-line="150" selection-start-column="24" selection-end-line="150" selection-end-column="24" />
+            <state relative-caret-position="296">
+              <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding>
-                <marker date="1506404908957" expanded="true" signature="1323:1429" ph="select from mmall_user" />
-                <marker date="1506404908957" expanded="true" signature="1516:1576" ph="delete from " />
-                <marker date="1506404908957" expanded="true" signature="1653:2054" ph="insert into mmall_user... " />
-                <marker date="1506404908957" expanded="true" signature="3815:4719" ph="update mmall... " />
-                <marker date="1506404908957" expanded="true" signature="4808:5250" ph="update mmall... " />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ymall/src/main/java/com/yuchu/dao/CartMapper.java">
+      <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/service/IUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="1" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="243">
+              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datasource.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="applicationContext-datasource.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/applicationContext-datasource.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="88" column="11" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state relative-caret-position="250">
+              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mmall.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mmall.properties">
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="189" column="16" lean-forward="false" selection-start-line="189" selection-start-column="16" selection-end-line="189" selection-end-column="16" />
+              <folding>
+                <marker date="1507512650593" expanded="true" signature="1323:1429" ph="select from mmall_user" />
+                <marker date="1507512650593" expanded="true" signature="1516:1576" ph="delete from " />
+                <marker date="1507512650593" expanded="true" signature="1653:2052" ph="insert into mmall_user... " />
+                <marker date="1507512650593" expanded="true" signature="3813:4717" ph="update mmall... " />
+                <marker date="1507512650593" expanded="true" signature="4806:5248" ph="update mmall... " />
+                <marker date="1507512650593" expanded="true" signature="5335:5399" ph="SELECT count... mmall_user" />
+                <marker date="1507512650593" expanded="true" signature="5474:5532" ph="SELECT COUNT... mmall_user" />
+                <marker date="1507512650593" expanded="true" signature="5623:5758" ph="SELECT FROM mmall_user" />
+                <marker date="1507512650593" expanded="true" signature="5867:5933" ph="SELECT quest... mmall_user" />
+                <marker date="1507512650593" expanded="true" signature="6027:6145" ph="SELECT COUNT... mmall_user" />
+                <marker date="1507512650593" expanded="true" signature="6241:6322" ph="SELECT COUNT... mmall_user" />
+                <marker date="1507512650593" expanded="true" signature="6423:6505" ph="SELECT COUNT... mmall_user" />
+                <marker date="1507512650593" expanded="true" signature="6583:6687" ph="UPDATE mmall... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/service/Impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-431">
+              <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#login#0;class#UserServiceImpl#0" expanded="false" />
+                <element signature="method#selectQuestion#0;class#UserServiceImpl#0" expanded="false" />
+                <element signature="method#checkAnswer#0;class#UserServiceImpl#0" expanded="false" />
+                <element signature="method#forgetResetPassword#0;class#UserServiceImpl#0" expanded="false" />
+                <element signature="method#resetPassword#0;class#UserServiceImpl#0" expanded="false" />
+                <element signature="method#updateInformation#0;class#UserServiceImpl#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseCode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/common/ResponseCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="datasource.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/datasource.properties">
+      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/dao/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ymall/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/logback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ymall/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="43" column="20" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="240">
+              <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>RequestMethod.GET</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>RequestMethod.POST</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -143,22 +203,33 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../ymall/pom.xml" />
-        <option value="$PROJECT_DIR$/../ymall/src/main/resources/datasource.properties" />
-        <option value="$PROJECT_DIR$/../ymall/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/../ymall/src/main/resources/mappers/CartMapper.xml" />
-        <option value="$PROJECT_DIR$/../ymall/src/main/resources/mappers/CategoryMapper.xml" />
-        <option value="$PROJECT_DIR$/../ymall/src/main/resources/mappers/OrderItemMapper.xml" />
-        <option value="$PROJECT_DIR$/../ymall/src/main/resources/mappers/OrderMapper.xml" />
-        <option value="$PROJECT_DIR$/../ymall/src/main/resources/mappers/PayInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/../ymall/src/main/resources/mappers/ProductMapper.xml" />
-        <option value="$PROJECT_DIR$/../ymall/src/main/resources/mappers/ShippingMapper.xml" />
-        <option value="$PROJECT_DIR$/../ymall/src/main/resources/mappers/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/../ymall/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/../ymall/src/main/resources/applicationContext-datasource.xml" />
-        <option value="$PROJECT_DIR$/../ymall/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/../ymall/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../ymall/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/OrderItemMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuchu/common/ServerResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuchu/util/PropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuchu/util/MD5Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuchu/common/Const.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuchu/common/TokenCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuchu/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuchu/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuchu/controller/backend/UserManageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuchu/controller/portal/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/datasource.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuchu/service/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuchu/common/ResponseCode.java" />
       </list>
     </option>
   </component>
@@ -212,8 +283,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="789" />
-    <option name="y" value="17" />
+    <option name="x" value="-7" />
     <option name="width" value="1226" />
     <option name="height" value="1047" />
   </component>
@@ -242,6 +312,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -257,6 +328,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,6 +381,48 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yuchu" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ymall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ymall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuchu" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ymall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ymall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuchu" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ymall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ymall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuchu" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ymall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ymall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuchu" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -314,7 +430,46 @@
               <item name="ymall" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuchu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ymall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ymall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuchu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ymall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ymall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuchu" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ymall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ymall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ymall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ymall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ymall" type="b2602c69:ProjectViewProjectNode" />
@@ -341,10 +496,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,6 +510,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ymall\src\main\java\com\yuchu\util" />
       <recent name="F:\ymall\src\main\resources" />
       <recent name="F:\ymall\src\main\webapp\WEB-INF" />
     </key>
@@ -386,7 +539,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ymall" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -544,12 +697,16 @@
       <workItem from="1506335576688" duration="6404000" />
       <workItem from="1506387758161" duration="2240000" />
       <workItem from="1506406856123" duration="811000" />
-      <workItem from="1506407723774" duration="1552000" />
+      <workItem from="1506407723774" duration="10480000" />
+      <workItem from="1506561889505" duration="5063000" />
+      <workItem from="1507457008602" duration="7838000" />
+      <workItem from="1507468441184" duration="1528000" />
+      <workItem from="1507509077975" duration="3462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12923000" />
+    <option name="totallyTimeSpent" value="39742000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -562,40 +719,39 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26066098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32402235" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27132195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,109 +761,21 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yuchu/controller/portal/UserController.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/CartMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
-          <folding>
-            <marker date="1506344577864" expanded="true" signature="1104:1210" ph="select from mmall_cart" />
-            <marker date="1506344577864" expanded="true" signature="1297:1357" ph="delete from " />
-            <marker date="1506344577864" expanded="true" signature="1434:1723" ph="insert into mmall_cart... " />
-            <marker date="1506344577864" expanded="true" signature="3070:3716" ph="update mmall... " />
-            <marker date="1506344577864" expanded="true" signature="3805:4128" ph="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/OrderItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3650">
-          <caret line="146" column="26" lean-forward="false" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
-          <folding>
-            <marker date="1506344685504" expanded="true" signature="1504:1616" ph="select from mmall_order_item" />
-            <marker date="1506344685504" expanded="true" signature="1703:1769" ph="delete from " />
-            <marker date="1506344685504" expanded="true" signature="1851:2359" ph="insert into mmall_order_item... " />
-            <marker date="1506344685504" expanded="true" signature="4403:5499" ph="update mmall... " />
-            <marker date="1506344685504" expanded="true" signature="5593:6176" ph="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/OrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4925">
-          <caret line="197" column="25" lean-forward="false" selection-start-line="197" selection-start-column="25" selection-end-line="197" selection-end-column="25" />
-          <folding>
-            <marker date="1506344882012" expanded="true" signature="1733:1840" ph="select from mmall_order" />
-            <marker date="1506344882012" expanded="true" signature="1927:1988" ph="delete from " />
-            <marker date="1506344882012" expanded="true" signature="2066:2683" ph="insert into mmall_order... " />
-            <marker date="1506344882012" expanded="true" signature="5118:6466" ph="update mmall... " />
-            <marker date="1506344882012" expanded="true" signature="6556:7228" ph="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/PayInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3175">
-          <caret line="127" column="24" lean-forward="false" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
-          <folding>
-            <marker date="1506345191812" expanded="true" signature="1212:1322" ph="select from mmall_pay_info" />
-            <marker date="1506345191812" expanded="true" signature="1409:1473" ph="delete from " />
-            <marker date="1506345191812" expanded="true" signature="1553:1916" ph="insert into mmall_pay_info... " />
-            <marker date="1506345191812" expanded="true" signature="3483:4274" ph="update mmall... " />
-            <marker date="1506345191812" expanded="true" signature="4366:4770" ph="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/ProductMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4375">
-          <caret line="175" column="24" lean-forward="false" selection-start-line="175" selection-start-column="24" selection-end-line="175" selection-end-column="24" />
-          <folding>
-            <marker date="1506345191849" expanded="true" signature="1528:1637" ph="select from mmall_product" />
-            <marker date="1506345191849" expanded="true" signature="1724:1787" ph="delete from " />
-            <marker date="1506345191849" expanded="true" signature="1867:2372" ph="insert into mmall_product... " />
-            <marker date="1506345191849" expanded="true" signature="4457:5568" ph="update mmall... " />
-            <marker date="1506345191849" expanded="true" signature="5660:6206" ph="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/ShippingMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4375">
-          <caret line="175" column="24" lean-forward="false" selection-start-line="175" selection-start-column="24" selection-end-line="175" selection-end-column="24" />
-          <folding>
-            <marker date="1506404908999" expanded="true" signature="1642:1752" ph="select from mmall_shipping" />
-            <marker date="1506404908999" expanded="true" signature="1839:1903" ph="delete from " />
-            <marker date="1506404908999" expanded="true" signature="1984:2602" ph="insert into mmall_shipping... " />
-            <marker date="1506404908999" expanded="true" signature="4908:6158" ph="update mmall... " />
-            <marker date="1506404908999" expanded="true" signature="6251:6910" ph="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3750">
-          <caret line="150" column="24" lean-forward="false" selection-start-line="150" selection-start-column="24" selection-end-line="150" selection-end-column="24" />
-          <folding>
-            <marker date="1506404908957" expanded="true" signature="1323:1429" ph="select from mmall_user" />
-            <marker date="1506404908957" expanded="true" signature="1516:1576" ph="delete from " />
-            <marker date="1506404908957" expanded="true" signature="1653:2054" ph="insert into mmall_user... " />
-            <marker date="1506404908957" expanded="true" signature="3815:4719" ph="update mmall... " />
-            <marker date="1506404908957" expanded="true" signature="4808:5250" ph="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/CategoryMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2825">
           <caret line="113" column="26" lean-forward="false" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
@@ -721,7 +789,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/java/com/yuchu/dao/CartMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/dao/CartMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="19" />
@@ -729,7 +797,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/CartMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1950">
           <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
@@ -743,7 +811,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/OrderItemMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderItemMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3650">
           <caret line="146" column="26" lean-forward="false" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
@@ -757,7 +825,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/OrderMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4925">
           <caret line="197" column="25" lean-forward="false" selection-start-line="197" selection-start-column="25" selection-end-line="197" selection-end-column="25" />
@@ -771,7 +839,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/PayInfoMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3175">
           <caret line="127" column="24" lean-forward="false" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
@@ -785,7 +853,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/ProductMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4375">
           <caret line="175" column="24" lean-forward="false" selection-start-line="175" selection-start-column="24" selection-end-line="175" selection-end-column="24" />
@@ -799,7 +867,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/ShippingMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4375">
           <caret line="175" column="24" lean-forward="false" selection-start-line="175" selection-start-column="24" selection-end-line="175" selection-end-column="24" />
@@ -813,21 +881,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3750">
           <caret line="150" column="24" lean-forward="false" selection-start-line="150" selection-start-column="24" selection-end-line="150" selection-end-column="24" />
           <folding>
-            <marker date="1506404908957" expanded="true" signature="1323:1429" ph="select from mmall_user" />
-            <marker date="1506404908957" expanded="true" signature="1516:1576" ph="delete from " />
-            <marker date="1506404908957" expanded="true" signature="1653:2054" ph="insert into mmall_user... " />
-            <marker date="1506404908957" expanded="true" signature="3815:4719" ph="update mmall... " />
-            <marker date="1506404908957" expanded="true" signature="4808:5250" ph="update mmall... " />
+            <marker date="1507512650593" expanded="true" signature="1323:1429" ph="select from mmall_user" />
+            <marker date="1507512650593" expanded="true" signature="1516:1576" ph="delete from " />
+            <marker date="1507512650593" expanded="true" signature="1653:2052" ph="insert into mmall_user... " />
+            <marker date="1507512650593" expanded="true" signature="3813:4717" ph="update mmall... " />
+            <marker date="1507512650593" expanded="true" signature="4806:5248" ph="update mmall... " />
+            <marker date="1507512650593" expanded="true" signature="5335:5399" ph="SELECT count... mmall_user" />
+            <marker date="1507512650593" expanded="true" signature="5474:5532" ph="SELECT COUNT... mmall_user" />
+            <marker date="1507512650593" expanded="true" signature="5623:5758" ph="SELECT FROM mmall_user" />
+            <marker date="1507512650593" expanded="true" signature="5867:5933" ph="SELECT quest... mmall_user" />
+            <marker date="1507512650593" expanded="true" signature="6027:6145" ph="SELECT COUNT... mmall_user" />
+            <marker date="1507512650593" expanded="true" signature="6241:6322" ph="SELECT COUNT... mmall_user" />
+            <marker date="1507512650593" expanded="true" signature="6423:6505" ph="SELECT COUNT... mmall_user" />
+            <marker date="1507512650593" expanded="true" signature="6583:6687" ph="UPDATE mmall... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/CategoryMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2825">
           <caret line="113" column="26" lean-forward="false" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
@@ -841,7 +917,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/java/com/yuchu/dao/CartMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/dao/CartMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -849,7 +925,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/CartMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1950">
           <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
@@ -863,7 +939,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/OrderItemMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderItemMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3650">
           <caret line="146" column="26" lean-forward="false" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
@@ -877,7 +953,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/OrderMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4925">
           <caret line="197" column="25" lean-forward="false" selection-start-line="197" selection-start-column="25" selection-end-line="197" selection-end-column="25" />
@@ -891,7 +967,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/PayInfoMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3175">
           <caret line="127" column="24" lean-forward="false" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
@@ -905,7 +981,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/ProductMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4375">
           <caret line="175" column="24" lean-forward="false" selection-start-line="175" selection-start-column="24" selection-end-line="175" selection-end-column="24" />
@@ -919,7 +995,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/CategoryMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2825">
           <caret line="113" column="26" lean-forward="false" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
@@ -933,7 +1009,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/ShippingMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3875">
           <caret line="155" column="26" lean-forward="false" selection-start-line="155" selection-start-column="26" selection-end-line="155" selection-end-column="26" />
@@ -947,7 +1023,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -955,7 +1031,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -963,7 +1039,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
           <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
@@ -971,29 +1047,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="76" column="51" lean-forward="false" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/java/com/yuchu/pojo/Order.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/pojo/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/java/com/yuchu/pojo/Cart.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/pojo/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-725">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/CategoryMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2825">
           <caret line="113" column="26" lean-forward="false" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
@@ -1007,7 +1075,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/OrderItemMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderItemMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3650">
           <caret line="146" column="26" lean-forward="false" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
@@ -1021,7 +1089,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/OrderMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4925">
           <caret line="197" column="25" lean-forward="false" selection-start-line="197" selection-start-column="25" selection-end-line="197" selection-end-column="25" />
@@ -1035,7 +1103,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/PayInfoMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3175">
           <caret line="127" column="24" lean-forward="false" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
@@ -1049,7 +1117,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/ProductMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4375">
           <caret line="175" column="24" lean-forward="false" selection-start-line="175" selection-start-column="24" selection-end-line="175" selection-end-column="24" />
@@ -1063,7 +1131,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/ShippingMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4375">
           <caret line="175" column="24" lean-forward="false" selection-start-line="175" selection-start-column="24" selection-end-line="175" selection-end-column="24" />
@@ -1077,21 +1145,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3750">
-          <caret line="150" column="24" lean-forward="false" selection-start-line="150" selection-start-column="24" selection-end-line="150" selection-end-column="24" />
-          <folding>
-            <marker date="1506404908957" expanded="true" signature="1323:1429" ph="select from mmall_user" />
-            <marker date="1506404908957" expanded="true" signature="1516:1576" ph="delete from " />
-            <marker date="1506404908957" expanded="true" signature="1653:2054" ph="insert into mmall_user... " />
-            <marker date="1506404908957" expanded="true" signature="3815:4719" ph="update mmall... " />
-            <marker date="1506404908957" expanded="true" signature="4808:5250" ph="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mappers/CartMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
           <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
@@ -1105,7 +1159,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/java/com/yuchu/dao/CartMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/dao/CartMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="1" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
@@ -1113,7 +1167,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
@@ -1121,23 +1175,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/datasource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/applicationContext-datasource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="88" column="11" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="43" column="20" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
@@ -1145,7 +1183,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50">
           <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
@@ -1153,18 +1191,177 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/logback.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/util/PropertiesUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="125">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/util/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ymall/src/main/resources/mmall.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/common/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/common/ServerResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ServerResponse#1;class#ServerResponse#0" expanded="false" />
+            <element signature="method#ServerResponse#2;class#ServerResponse#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/common/TokenCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="189" column="16" lean-forward="false" selection-start-line="189" selection-start-column="16" selection-end-line="189" selection-end-column="16" />
+          <folding>
+            <marker date="1507512650593" expanded="true" signature="1323:1429" ph="select from mmall_user" />
+            <marker date="1507512650593" expanded="true" signature="1516:1576" ph="delete from " />
+            <marker date="1507512650593" expanded="true" signature="1653:2052" ph="insert into mmall_user... " />
+            <marker date="1507512650593" expanded="true" signature="3813:4717" ph="update mmall... " />
+            <marker date="1507512650593" expanded="true" signature="4806:5248" ph="update mmall... " />
+            <marker date="1507512650593" expanded="true" signature="5335:5399" ph="SELECT count... mmall_user" />
+            <marker date="1507512650593" expanded="true" signature="5474:5532" ph="SELECT COUNT... mmall_user" />
+            <marker date="1507512650593" expanded="true" signature="5623:5758" ph="SELECT FROM mmall_user" />
+            <marker date="1507512650593" expanded="true" signature="5867:5933" ph="SELECT quest... mmall_user" />
+            <marker date="1507512650593" expanded="true" signature="6027:6145" ph="SELECT COUNT... mmall_user" />
+            <marker date="1507512650593" expanded="true" signature="6241:6322" ph="SELECT COUNT... mmall_user" />
+            <marker date="1507512650593" expanded="true" signature="6423:6505" ph="SELECT COUNT... mmall_user" />
+            <marker date="1507512650593" expanded="true" signature="6583:6687" ph="UPDATE mmall... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431">
+          <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#login#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="method#selectQuestion#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="method#checkAnswer#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="method#forgetResetPassword#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="method#resetPassword#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="method#updateInformation#0;class#UserServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/controller/backend/UserManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/controller/portal/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="124" column="76" lean-forward="true" selection-start-line="124" selection-start-column="76" selection-end-line="124" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuchu/common/ResponseCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
         </state>
       </provider>
