@@ -1,5 +1,6 @@
 package com.yuchu.dao;
 
+import com.google.common.collect.Lists;
 import com.yuchu.pojo.Cart;
 import org.apache.ibatis.annotations.Param;
 
@@ -29,4 +30,6 @@ public interface CartMapper {
     Integer checkedOrUnCheckedProduct(@Param("userId") Integer userId, @Param("productId") Integer productId, @Param("checked") Integer checked);
 
     Integer selectCartProductCount(@Param("userId") Integer userId);
+
+    List<Cart> selectCheckedCartByUserId(@Param("userId") Integer userId);
 }

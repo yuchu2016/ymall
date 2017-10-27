@@ -1,5 +1,6 @@
 package com.yuchu.dao;
 
+import com.google.common.collect.Lists;
 import com.yuchu.pojo.OrderItem;
 import org.apache.ibatis.annotations.Param;
 
@@ -19,4 +20,8 @@ public interface OrderItemMapper {
     int updateByPrimaryKey(OrderItem record);
 
     List<OrderItem> getByOrderNoUserId(@Param("orderNo") Long orderNo, @Param("userId") Integer userId);
+
+    void batchInsert(@Param("orderItemList") List<OrderItem> orderItemList);
+
+    List<OrderItem> getByOrderNo(@Param("orderNo") Long orderNo);
 }
